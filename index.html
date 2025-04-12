@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign up form</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <div class="Wrapper">
+    <div class="Left-side">
+        <div class="Logo">
+            <img src="Img/Tottenham_Hotspur.svg.png" class="Imgine">
+            <p class="Odin-P">Totenham Hotspur</p>
+        </div>
+        <p class="Credit">Photo By <a class="Phtographer" href="https://unsplash.com/@winstontjia" target="_blank">Winston Tjia</a> on <a class="Phtographer" href="https://unsplash.com/" target="_blank">Unsplash</a></p>
+    </div>
+    <div class="Right-side">
+      <div class="Top-Section">
+        <div class="Text-Wrapper">
+          <p>This isn't just another sign-up page. It's your chance to dare, to dream—like Spurs chasing glory on a starry European night.
+
+            You know it’s time. Lace up, step onto the pitch of possibility, and sign up now to begin your journey.
+            
+            
+            </p>
+            <p>North London forever.</p>
+            <p>Your moment starts here.</p>
+        </div>
+      </div>
+      <div class="Middle-Section">
+        <p class="Paragraph-form">Let's do this!</p>
+        <form method="get" action="https://www.tottenhamhotspur.com/"   class="form">
+          <div class="Name-Section">
+            <div class="form-Section">
+              <label for="first_name">First Name</label>
+              <input type="text" id="first_name" name="first_name" class="Name" placeholder="John"    required />
+            </div>
+            <div class="form-Section">
+              <label for="last_name">Last Name</label>
+              <input type="text" id="last_name" name="last_name" class="Name"  placeholder="Doe" required />
+            </div>
+          </div>
+          <div class="Email_Phone">
+            <div class="form-Section">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" class="Name" required />
+            </div>
+            <div class="form-Section">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" class="Name"   required />
+            </div>
+          </div>
+          <div class="Password">
+            <div class="form-Section">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" class="Name" minlength="8"  required />
+            </div>
+            <div class="form-Section">
+              <label for="confirm_password">Confirm Password</label>
+              <input type="password" id="confirm_password" name="confirm_password" class="Name" minlength="8" required />
+            </div>
+          </div>
+          <div class="form-Section full-width">
+            <button type="submit" class="submit-button">Sign Up</button>
+            <p class="Already-Sign-up">Already have an account? <a class="Login_Button" href="https://www.youtube.com/watch?v=BT9h5ifR1tY" target="_blank">Login</a> </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>

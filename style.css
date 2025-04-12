@@ -1,0 +1,180 @@
+/* Base styles */
+
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  /* Layout */
+  .Wrapper {
+    display: flex;
+  }
+
+
+.Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+    height: 200px;
+    background-color: black;
+    opacity: 0.85;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.Imgine {
+    width: 20%;
+}
+
+.Odin-P {
+    color: white;
+    font-size: 50px;
+}
+
+.Left-side {
+    flex: 1;
+    flex-direction: column;
+    position: relative;
+    background-image: url('Img/Tottenham\ Logo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    width: 30%;
+    height: 100vh;
+  }
+  
+.Right-side {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100vh;
+    background-color: white;
+  }
+  
+  
+  /* Top Section */
+.Top-Section {
+    display: flex;
+    background-color: rgb(19, 31, 83);
+    height: 33vh;
+    font-size: 1.4vw;
+    align-items: center;
+  }
+  
+.Text-Wrapper {
+    color: white;
+    margin: 0 10%;
+  }
+  
+  /* Middle Section */
+.Middle-Section {
+    height: 53vh;
+    padding: 20px 20%;
+    background-color: aliceblue;
+  }
+  
+.Paragraph-form {
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+.Name-Section,
+.Email_Phone,
+.Password {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+.form-Section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 200px;
+    position: relative;
+  }
+  
+.full-width {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+label {
+    font-size: 1vw;
+    margin-bottom: 5px;
+  }
+  
+input {
+    height: 35px;
+    padding: 5px 10px;
+    font-size: 1vw;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+input:focus {
+    outline: none;
+    border-color: slategray;
+    box-shadow: 0 0 5px rgba(112, 128, 144, 0.5);
+  }
+  
+
+  
+.submit-button {
+    width: fit-content;
+    padding: 10px 20px;
+    font-size: 1vw;
+    font-weight: bold;
+    background-color: slategray;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #2f4f4f;
+  }
+  
+  .Already-Sign-up {
+    margin-top: 15px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .Credit {
+    color: white;
+    margin-top: 80%;
+    text-align: center;
+  }
+
+  .Phtographer {
+    color: white;
+  }
+
+  .Phtographer:hover {
+    text-decoration: underline;
+  }
