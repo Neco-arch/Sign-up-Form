@@ -1,4 +1,3 @@
-/* Base styles */
 
 body {
     margin: 0;
@@ -10,7 +9,6 @@ body {
     margin: 0;
   }
   
-  /* Layout */
   .Wrapper {
     display: flex;
   }
@@ -59,8 +57,7 @@ body {
     background-color: white;
   }
   
-  
-  /* Top Section */
+
 .Top-Section {
     display: flex;
     background-color: rgb(19, 31, 83);
@@ -74,7 +71,7 @@ body {
     margin: 0 10%;
   }
   
-  /* Middle Section */
+
 .Middle-Section {
     height: 53vh;
     padding: 20px 20%;
@@ -120,7 +117,7 @@ label {
   }
   
 input {
-    height: 35px;
+    height: 25px;
     padding: 5px 10px;
     font-size: 1vw;
     border: 1px solid #ccc;
@@ -132,9 +129,7 @@ input:focus {
     border-color: slategray;
     box-shadow: 0 0 5px rgba(112, 128, 144, 0.5);
   }
-  
-
-  
+    
 .submit-button {
     width: fit-content;
     padding: 10px 20px;
@@ -177,4 +172,16 @@ input:focus {
 
   .Phtographer:hover {
     text-decoration: underline;
+  }
+
+  .Password1:invalid {
+    border: 2px solid red;
+  }
+
+  .Password1:valid {
+    border: 2px solid green;
+  }
+  
+  .Unique_Text {
+    margin-top: 10px;
   }
